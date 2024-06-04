@@ -1,24 +1,39 @@
-let name = prompt("Please Enter Your Name");
-console.log(name);
+// let name = prompt("Please Enter Your Name");
+// console.log(name);
 
-let gender =prompt("please enter gender");
-let s ;
-if(gender === "male"){
-    console.log(gender)
-    s= "mr." ;
-} else if(gender === "female")
-    {console.log(gender)
-        s ="ms.";
-    }
-else {
-    alert("Gender should be either male or female")
-    s="";
-}
-alert("Hey "+ s +" "+ name  );
 
-let order = prompt("do you want donuts, ice cream or coffe");
-console.log(order)
-alert ("hey "+s+" " + name +", Your order is being prepared!" )
+// while(true){
+//     var gender =prompt("please enter gender");
+// var s ;
+// if(gender === "male"){
+//     console.log(gender);
+//     s= "mr." ;
+//     // alert("hey ,"+s+""+name);
+//     break;
+// } else if(gender === "female")
+//     {console.log(gender);
+//         s ="ms.";
+//         // alert("hey ,"+s+""+name);
+//         break;
+//     }
+// else {
+//     alert("Gender should be either male or female");
+// }
+// }
+
+// alert("hey ,"+s+""+name);
+
+// let order = prompt("do you want donuts, ice cream or coffe");
+// // console.log(order)
+// const ordarr = [name , gender , order];
+// let info="" ;
+// for(let i =0;  i<ordarr.length; i++){
+//  info+=ordarr[i];
+// console.log(info);
+// }
+
+
+// alert ("hey "+s+" " + name +", Your order is being prepared!" );
 
 // console.log(5*3);         
 // console.log("JavaScript" + 50  ); 
@@ -94,3 +109,48 @@ alert ("hey "+s+" " + name +", Your order is being prepared!" )
 //   default:
 //   alert("TRY AGAIN");
 // }
+
+
+// q1
+// for(let i = 0 ;i<=5;i++){
+//     alert(i);
+// }
+ 
+// q2   let all="";
+
+// for(let i = 0 ;i<=5;++i){
+    
+//     all+=i+" " ;  
+//     alert(all);
+// }
+
+// q3
+// let total = "";
+
+// for (let i = 0 ; i<=20 ; i++){
+
+//     if (i%3 == 0){
+//         total+=i+" ";
+
+//     }
+//     alert(total);
+// }
+
+// q4  while(true){
+// let value = prompt("Please enter a number between 0 and 100");
+//  if (value>0 && value<100){
+//     alert("Your number is "+value);
+//     break;
+//  }
+//     else {
+//         alert("you number is out of range ");
+//     }
+
+// }
+
+// q5 let valu= prompt("please enter a number");
+// let total=0;
+// for(let i = valu; i>0;i--){
+//  total=parseInt(total)+parseInt(i);
+// }
+// alert(total);
